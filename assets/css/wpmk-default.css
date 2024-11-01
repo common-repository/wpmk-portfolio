@@ -1,0 +1,36 @@
+.wpmk-portfolio-container,
+.wpmk-portfolio-filters-container,
+.wpmk-portfolio-items-container{
+    width: 100%;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpmk-portfolio-filters-container ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.wpmk-portfolio-filters-container ul li{
+    list-style: none;
+    float: left;
+	margin : 0px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.wpmk-portfolio-filters-container ul li .wpmk-portfolio-filters{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    color: #000000;
+}
+.wpmk-portfolio-filters-container .wpmk-active-portfolio{
+    background-color: lightblue !important;
+    color: #FFFFFF !important;
+}
